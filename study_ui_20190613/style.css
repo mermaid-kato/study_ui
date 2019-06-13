@@ -1,0 +1,47 @@
+body {
+  margin-top: 20px;
+}
+
+.service {
+  background-color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.annotation {
+  margin: auto;
+  opacity: 0.6;
+}
+
+.main {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__circle {
+  background-color: #c5c0c0;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.main__element:nth-of-type(n+2) {
+  margin-left: 80px;
+}
+
+.main__title {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.main__annotation {
+  margin-top: 10px;
+  opacity: 0.6;
+  width: 180px;
+}
