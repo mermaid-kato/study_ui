@@ -1,0 +1,21 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.main__content {
+  display: flex;
+  font-size: 4rem;
+  color: white;
+  margin-left: 60px;
+  overflow: auto;
+}
+
+.articles, .studio, .factory,
+.work, .team, .archive {
+  margin-right: 60px;
+}
+
+.articles:hover, .studio:hover, .factory:hover,
+.work:hover, .team:hover, .archive:hover {
+  color: black;
+}
